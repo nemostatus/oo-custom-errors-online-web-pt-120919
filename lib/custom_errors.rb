@@ -13,6 +13,7 @@ class Person
      => error 
      puts
      error.message
+   end 
    else 
      person.partner = self 
    end 
