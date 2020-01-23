@@ -10,6 +10,7 @@ class Person
    if person.class != Person 
      raise PartnerError 
    else 
+     person.partner
   end
   class PartnerError <
     StandardError
