@@ -10,8 +10,10 @@ class Person
    if person.class != Person 
      raise PartnerError 
    else 
-     person.partner
-  end
+     person.partner = self 
+   end 
+ end 
+ 
   class PartnerError <
     StandardError
   end 
