@@ -16,7 +16,8 @@ class Person
  
   class PartnerError <
     StandardError
-  end 
+  def message 
+    "you "
 
 end
 
